@@ -1,0 +1,26 @@
+{
+  "name": "fail-import",
+  "version": "0.0.0",
+  "description": "Show failing imports",
+  "scripts": {
+    "build": "atomify",
+    "clean": "rm -fr build"
+  },
+  "style": "lib/index.css",
+  "atomify": {
+    "assets": {
+      "dest": "build/assets",
+      "prefix": "build/assets"
+    },
+    "css": {
+      "entry": "lib/index.css",
+      "output": "build/build.css"
+    }
+  },
+  "dependencies": {
+    "font-awesome": "bdo-labs/font-awesome"
+  },
+  "devDependencies": {
+    "atomify": "^3.1.2"
+  }
+}
